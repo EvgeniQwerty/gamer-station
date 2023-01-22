@@ -1,0 +1,12 @@
+.cards
+    background-color: $color-gray-light
+    //grid-row: 4 / 5
+    grid-column: center-start / center-end
+
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr))
+    grid-gap: 4rem 6rem  
+
+    padding: 15rem 0
+    @include respond(phone)
+        padding: 5rem 0

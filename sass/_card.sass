@@ -1,0 +1,55 @@
+.card
+    display: grid
+    grid-template-columns: repeat(2, 1fr)   
+    background-color: $color-blue-dark
+    transition: all .3s
+
+    &__img
+        grid-column: 1 / -1
+        width: 100%
+
+    &__title
+        grid-column: 1 / -1
+        justify-self: center
+        background-color: $color-green-dark
+        width: 80%
+        padding: 1.5rem       
+        text-align: center
+        font-weight: 700
+        font-size: 1.6rem
+        line-height: 2rem
+        color: $color-gray-light
+        transform: translateY(-50%)
+
+    &:hover
+        transform: translateY(-.5rem)    
+
+.content
+    margin-bottom: 3rem
+    display: flex
+
+    
+    &:nth-child(3)
+        margin-left: 4rem 
+
+    &:nth-child(5)
+        margin-left: 4rem    
+
+    &:nth-child(4)
+        margin-left: 1rem
+        margin-right: 2rem 
+
+    &:nth-child(6)
+        margin-left: 1rem
+        margin-right: 2rem 
+
+    &__svg
+        width: 2rem
+        height: 2rem    
+        margin-right: .6rem  
+
+    &__text
+        font-weight: 300
+        font-size: 1.6rem
+        line-height: 2rem
+        color: $color-gray-light
