@@ -1,4 +1,4 @@
-https://evgeniqwerty.github.io/guitar-teacher/
+https://evgeniqwerty.github.io/gamer-station/
 
 Учебный проект, направленный на:
 
